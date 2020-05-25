@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ "./src/component.js");
 
 
-document.append(Object(_component__WEBPACK_IMPORTED_MODULE_0__["default"])());
+document.body.append(Object(_component__WEBPACK_IMPORTED_MODULE_0__["default"])());
 
 
 /***/ })

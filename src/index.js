@@ -1,3 +1,3 @@
 import component from './component';
 
-document.append(component());
+document.body.append(component());
