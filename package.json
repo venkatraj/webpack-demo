@@ -5,15 +5,18 @@
   "author": "Venkat <venkat@codinggeek.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\"",
+    "build": "webpack --env production"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "html-webpack-plugin": "^4.3.0",
-    "webpack-dev-server": "^3.11.0"
+    "nodemon": "^2.0.4",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
   }
 }
